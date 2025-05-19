@@ -1,8 +1,6 @@
-# 🎙️ FreeScribe – In-Browser Transcription & Translation App
+# 🎙️FreeScribe - In-Browser Transcription & Translation App
 
 **FreeScribe** is a fully browser-based audio transcription and translation tool built with React and Web Workers. It enables users to record or upload audio, transcribe speech to text using machine learning models running locally in the browser, and translate the transcribed text into over 100 languages — all without requiring any backend or API integration.
-
----
 
 ## Features
 
@@ -32,8 +30,6 @@
 - Animated loading bars using CSS keyframes
 - Font Awesome icons and Tailwind transitions for an enhanced experience
 
----
-
 ## Tech Stack
 
 - **React** – Frontend framework
@@ -44,8 +40,6 @@
 - **AudioContext API** – Decode uploaded audio files
 - **Blob & Object URLs** – Dynamic audio and file handling
 - **CSS Animations & Transitions** – Animate loading bars and spinners
-
----
 
 ## Key Modules
 
@@ -65,8 +59,6 @@
 | `whisper.worker.js`    | Runs Whisper transcription in browser    |
 | `translate.worker.js`  | Runs NLLB translation via Web Worker     |
 | `presets.js`           | Holds constants like language maps       |
-
----
 
 ## App Flow
 
@@ -95,8 +87,6 @@
    - Download transcription/translation as `.txt`
    - Download the recorded audio as `.webm`
 
----
-
 ## Getting Started
 
 To run the app locally:
@@ -107,8 +97,6 @@ npm install
 npm run dev
 ```
 Open http://localhost:5173 in your browser
-
----
 
 ## Conclusion
 
